@@ -1,0 +1,18 @@
+---
+title: Analog Clock
+subtitle: Embedded Systems Design
+layout: default
+modal-id: 3
+date: 2020-10-11
+img: Analog_Clock_big.png
+thumbnail: Analog_Clock_small.png
+alt: image-alt
+project-date: March 2020 - June 2020
+client: Start Bootstrap
+category: Class Project
+
+
+---
+<p>
+ This is a fully functioning clock consisting of 60 RGB LEDs to display time and three push buttons to set the time.  Using assembly language meant for typical AVR microcontrollers, I programmed and troubleshooted all hardware logic designs of the Caltech20 Microcontroller. The microcontroller had the typical peripherals, including SPI, IO Ports, Timer, and Chip Select and Interrupt, as well as the Caltech 10 CPU. The CPU is a RISC Accumulator based Harvard Architecture CPU, in which I also fully programmed all parts such as the ALU or Program Counter. The simulation image may not mimic a clock too much, but with the remote learning situations, it was the best that could be done. This project was done during the Introduction to Digital Logic and Embedded Systems Course. The next steps are to design the actual board, upload all the written code and have a physical analog clock!
+</p>

@@ -1,0 +1,40 @@
+---
+title: Wheel Speed Sensors
+subtitle: Caltech Racing Team
+layout: default
+modal-id: 2
+date: 2020-10-08
+thumbnail: tachometer_top.png
+project-date: June 2020 - present
+category: PCB Design
+
+---
+
+<style>
+
+.imgContainer {
+  float : left;
+  width: 50%;
+  padding: 5px;
+}
+
+  .row::after {
+    content : "";
+    clear: both;
+    display: table;
+  }
+
+</style>
+
+<div class="image123">
+    <div class="imgContainer">
+        <img src="/img/portfolio/tachometer_top.png"/>
+    </div>
+    <div class="imgContainer">
+        <img src="/img/portfolio/tachometer_bottom.png"/>
+    </div>
+</div>
+
+<p>
+  This Wheel Speed Sensors board is implemented onto the electric car designed by the Caltech Racing Team. It essentially serves as the tachometer, measuring how fast the car's wheels are rotating. The implementation will be done with an analog output hall effect sensor as well as two symetrically placed neodymium magnets. The signals received are processed as interrupts into the STM32F469 Microntroller to provide information about the car's RPM. The next steps involve board fabrication as well as troubleshooting.
+</p>

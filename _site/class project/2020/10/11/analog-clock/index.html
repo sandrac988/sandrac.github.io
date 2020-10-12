@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Analog Clock</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Hello! I'm Sandra Chea, a sophomore attending Caltech and an aspiring electrical engineer. I'm currently interested in circuit and PCB design and really love getting my hands dirty in awesome and innovative electronics hardware! ">
+    <link rel="canonical" href="http://localhost:4000/class%20project/2020/10/11/analog-clock/">
+
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+
+    <body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Sandra Chea</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Hello!</div>
+                <div class="intro-lead-in">Nice to meet you!</div>
+                <a href="https://docs.google.com/document/d/196zeAt8uMHvd6waSm1N74rOeebPRLmk-3TfUAa5PJsI/edit?usp=sharing" target="_blank" class="page-scroll btn btn-xl">RESUME</a>
+            </div>
+        </div>
+    </header>
+<!--
+        
+          
+        
+          
+        
+          
+        
+ -->
+
+  
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                </div>
+            </div>
+            <div class="row">
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/hydrophone_board_top.png" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Hydrophone Board</h4>
+                        <p class="text-muted">Caltech Robotics Team</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Analog_Clock_small.png" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Analog Clock</h4>
+                        <p class="text-muted">Embedded Systems Design</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Arduino_OV7670.png" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Arduino Projects</h4>
+                        <p class="text-muted">JPL Internship 2020</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tachometer_top.png" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Wheel Speed Sensors</h4>
+                        <p class="text-muted">Caltech Racing Team</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/self_potrait.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                      <br> Hi, I'm Sandra Chea, a student/intern/researcher based in Los Angeles, California!
+                                      </br>
+                                  </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/Caltech.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Student</h4>
+                                    <h4 class="subheading">Caltech</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">I am currently a sophomore majoring in electrical engineering. Besides spending my time doing homework set after set, I use my two clubs (Robotics and Racing Club) as outlets of relaxation as I contribute to practical designs. I especially appreciate all the great people I've met here as well as the strong collaborative culture that Caltech offers.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/electronics.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Aspiring Engineer</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">My main goal right now is to search for opportunities that will allow me to explore the differents paths that electrical engineering has. My current interests include circuit and PCB design, but there are still so many other areas that I have not had the chance to get my hands dirty in and learn more about. I hope that as I continue to absorb valuable information from different experiences, I can build up a strong arsenal of skills that allow me to be a well rounded engineer. </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>
+                                    <br>Contact Me!
+                                    <br></h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+      <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Sandra Chea 2020</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        
+                        <li><a href="www.linkedin.com/in/sandra-chea-272171169"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+     <!-- Portfolio Modals -->
+ 
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Hydrophone Board</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/hydrophone_board_top.png" class="img-responsive img-centered" alt="image-alt">
+                            <p><p>
+ This is the hydrophone board that my partner and I fully designed in Altium. It is mounted onto the autonomous submarine designed by the Caltech Robotics Team. The Caltech Robotics Team participates in an annual competition where autonomous submarines execute a variety of tasks to as many points as possible. One of these tasks includes following pings generated by a pinger. This is where the hydrophone board comes into play. This board first amplifes and reduces noise from the received pinger signals. It then digitially processes them using methods involving sine and cosine tables as well as fourier integrals to compute the ping phase and direction to successfully move in the direction of the pinger. The next steps include implementing inter-submarine communication using a hydrophone transmitter board.
+</p>
+<p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">September 2019 - March 2020</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">PCB Design</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Analog Clock</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Analog_Clock_big.png" class="img-responsive img-centered" alt="image-alt">
+                            <p><p>
+ This is a fully functioning clock consisting of 60 RGB LEDs to display time and three push buttons to set the time.  Using assembly language meant for typical AVR microcontrollers, I programmed and troubleshooted all hardware logic designs of the Caltech20 Microcontroller. The microcontroller had the typical peripherals, including SPI, IO Ports, Timer, and Chip Select and Interrupt, as well as the Caltech 10 CPU. The CPU is a RISC Accumulator based Harvard Architecture CPU, in which I also fully programmed all parts such as the ALU or Program Counter. The simulation image may not mimic a clock too much, but with the remote learning situations, it was the best that could be done. This project was done during the Introduction to Digital Logic and Embedded Systems Course. The next steps are to design the actual board, upload all the written code and have a physical analog clock!
+</p>
+<p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">March 2020 - June 2020</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Class Project</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Arduino Projects</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Arduino_OV7670.png" class="img-responsive img-centered" alt="">
+                            <p><p>
+ These are some preliminary Arduino configurations that I've done over the summer. Although very simple, the purpose of these projects is to explore the peripherals and communication protocols in more depth. The full process included constructing, troubleshooting, and more importantly investigating how information is communicated at a register level. Below are some more configurations. This knowledge was then applied to an avionics platform that can be more effectively discussed in person.
+</p>
+
+
+<style>
+
+.imgContainer {
+  float : left;
+
+}
+
+  .row::after {
+    content : "";
+    clear: both;
+    display: table;
+  }
+
+</style>
+
+<div class="image123">
+    <div class="imgContainer">
+        <img src="/img/portfolio/Arduino_Servo.png"/>
+    </div>
+    <div class="imgContainer">
+        <img src="/img/portfolio/Arduino_Brushless.png"/>
+    </div>
+    <div class="imgContainer">
+        <img src="/img/portfolio/Arduino_DC_Motor.png"/>
+    </div>
+    <div class="imgContainer">
+        <img src="/img/portfolio/Arduino_Stepper.png"/>
+    </div>
+</div>
+<p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">June 2020 - present</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Mini Projects</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Wheel Speed Sensors</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                            <p><style>
+
+.imgContainer {
+  float : left;
+  width: 50%;
+  padding: 5px;
+}
+
+  .row::after {
+    content : "";
+    clear: both;
+    display: table;
+  }
+
+</style>
+
+<div class="image123">
+    <div class="imgContainer">
+        <img src="/img/portfolio/tachometer_top.png"/>
+    </div>
+    <div class="imgContainer">
+        <img src="/img/portfolio/tachometer_bottom.png"/>
+    </div>
+</div>
+
+<p>
+  This Wheel Speed Sensors board is implemented onto the electric car designed by the Caltech Racing Team. It essentially serves as the tachometer, measuring how fast the car's wheels are rotating. The implementation will be done with an analog output hall effect sensor as well as two symetrically placed neodymium magnets. The signals received are processed as interrupts into the STM32F469 Microntroller to provide information about the car's RPM. The next steps involve board fabrication as well as troubleshooting.
+</p>
+<p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">June 2020 - present</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">PCB Design</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <script src="/js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+
+
+    </body>
+</html>

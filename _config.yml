@@ -1,0 +1,20 @@
+url: https://sandrac.github.io
+baseurl: ""
+remote_theme: y7kim/agency-jekyll-theme
+
+# Site settings
+title: Sandra Chea
+email: schea@caltech.edu
+description: "Hello! I'm Sandra Chea, a sophomore attending Caltech and an aspiring electrical engineer. I'm currently interested in circuit and PCB design and really love getting my hands dirty in awesome and innovative electronics hardware! "
+
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: www.linkedin.com/in/sandra-chea-272171169
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
